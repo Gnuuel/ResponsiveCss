@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* html reset  */
+a{
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+}
+ul,ol{
+list-style-type: none;
+}
+button{
+    border: none;
+    outline: none;
+}
+.container{
+    padding: 0 150px;
+}
+/* html reset  */
+
+.navigationBar{
+    background-color: rgb(15,25,35);
+    width: 100%;
+    height: 63px;
+    
+}
+
+.navigationBar .container .navigBar{
+    display: flex;
+    justify-content: space-between;
+}
+.navigationBar .container .navigBar .logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navigationBar .container .navigBar .logo a{
+
+}
+.navigationBar .container .navigBar .logo a img{
+    width: 100%;
+
+}
+.navigationBar .container .navigBar .navbar{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigationBar .container .navigBar .navbar nav{
+
+}
+.navigationBar .container .navigBar .navbar nav .nav-list{
+    display: flex;
+    
+}
+.navigationBar .container .navigBar .navbar nav .nav-list .nav-list-item {
+}
+
+.navigationBar .container .navigBar .navbar nav .nav-list .nav-list-item a{
+    color: #fff;
+    transition: 0.4s;
+    font-size: 20px;
+    display: flex;
+    margin-left: 15px;
+
+}
+.container .navigBar .navbar nav .nav-list .nav-list-item a:hover{
+    color: rgb(250,200,25);
+    transition: 0.4s;
+}
+
+
+.navigationBar .container .navigBar .social{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigationBar .container .navigBar .social .social-list{
+    display: flex;
+
+}
+.navigationBar .container .navigBar .social .social-list-item{
+    border-radius: 50%;
+    margin-left: 20px;
+    background: rgb(50, 60, 70);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+}
+.navigationBar .container .navigBar .social .social-list-item:hover{
+    background-color: rgba(250, 200, 25, 1) ;
+}
+.navigationBar .container .navigBar .social .social-list-item a{
+    color: #fff;
+    transition: 0.2s;
+}
+
+.navigationBar .container .navigBar .social .social-list-item:hover i{
+    color: black;
+}
+.navigationBar .container .navigBar .responsiveNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navigationBar .container .navigBar .responsiveNav a{
+    color: #fff;
+    font-size: 20px;
+    display: none;
+}
+
+/* start cards */
+#cards .container .card{
+margin-top: 100px;
+}
+#cards .container .card .cardContent{
+    
+}
+#cards .container .card .cardContent h2{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    position: relative;
+}
+#cards .container .card .cardContent h2::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #fac819;
+    left: 45%;
+    top: 100%;
+    
+}
+#cards .container .card .fourCard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+#cards .container .card .fourCard .cardNth{
+    text-align: center;
+    width: 25%;
+    padding: 26px;
+    
+}
+/* #cards .container .card .fourCard .cardNth .cardIcon{
+    transform: rotate(45deg);
+    background: linear-gradient(to bottom, rgba(250, 200, 25, .3), transparent);
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+} */
+#cards .container .card .fourCard .cardNth .cardIcon i{
+    font-size: 50px;
+    /* transform: rotate(-45deg); */
+    color: rgb(250,200,25);
+    text-shadow: 1px 1px rgb(0 0 0 / 50%);
+
+}
+#cards .container .card .fourCard .cardNth .cardText{
+}
+#cards .container .card .fourCard .cardNth .cardText h2{
+    color:rgb(15,25,35);
+    font-weight: bold;
+    font-size: 20px;
+    margin:15px 0;
+}
+#cards .container .card .fourCard .cardNth .cardText p{
+    color: #555;
+    font-size: 18px;
+}

@@ -1,0 +1,74 @@
+@media (max-width:1248px){
+    .container{
+        padding: 0 30px;
+    }
+    .navigationBar .container .navigBar .navbar nav .nav-list .nav-list-item a{
+        font-size: 13px;
+    }
+    .navigationBar .container .navigBar .social .social-list-item{
+        margin-left: 15px;
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
+    }
+    /* start card */
+    #cards .container .card .cardContent h2{
+        font-size: 20px;
+    }
+    #cards .container .card .cardContent h2::after{
+        width: 70px;
+        left: 47%;
+        top: 100%;
+        
+    }
+    #cards .container .card .fourCard .cardNth .cardText h2{
+        font-size: 18px;
+    }
+    #cards .container .card .fourCard .cardNth .cardText p{
+        color: #555;
+        font-size: 16px;
+    }
+    #cards .container .card .fourCard .cardNth .cardIcon i{
+        font-size: 40px;
+    }
+}
+@media (max-width:768px){
+    .navigationBar .container .navigBar .navbar{
+        display: none;
+    }
+    .navigationBar .container .navigBar .social{
+        display: none;
+    }
+    .navigationBar .container .navigBar .responsiveNav a{
+        display: block;
+    }
+    .navigationBar{
+        height: 60px;
+    }
+    .container{
+        padding: 0 100px;
+    }
+    .navigationBar .container .navigBar .logo{
+        width: 30%;
+    
+    }
+    
+    #cards .container .card .fourCard .cardNth{
+        width: 48%;
+    }
+}
+
+@media (max-width:700px){
+
+    .container{
+        padding: 0 20px;
+    }
+}
+@media (max-width:460px){
+    #cards .container .card .fourCard .cardNth{
+        width: 100%;
+        padding: 0 55px;
+        margin-top: 47px;
+    }
+   
+}
